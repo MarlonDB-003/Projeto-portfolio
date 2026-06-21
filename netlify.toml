@@ -1,0 +1,15 @@
+# Configuração de deploy do Netlify
+# O Netlify serve na raiz do domínio, então usamos base "/" (script build:netlify).
+
+[build]
+  command = "npm run build:netlify"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA fallback: garante que qualquer rota caia no index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
