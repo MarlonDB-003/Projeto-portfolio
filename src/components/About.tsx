@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { GraduationCap, Code2, Cloud } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
+import { asset } from '../utils/asset'
 
 const focusIcons = [Code2, GraduationCap, Cloud]
 
@@ -21,7 +22,7 @@ export function About() {
           <div className="absolute -inset-3 -z-10 rounded-[2rem] bg-gradient-to-tr from-[var(--color-accent)]/20 to-[var(--color-accent-2)]/20 blur-2xl" />
           <div className="glass overflow-hidden rounded-[2rem] p-2">
             <img
-              src="/images/me2.png"
+              src={asset('images/me2.png')}
               alt={t.about.role}
               className="h-full w-full rounded-[1.6rem] object-cover"
               loading="lazy"
