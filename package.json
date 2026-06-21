@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:netlify": "tsc -b && vite build --base=/",
     "preview": "vite preview",
     "lint": "eslint ."
   },
