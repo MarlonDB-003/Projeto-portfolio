@@ -3,6 +3,7 @@ import { ArrowDown, Download } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 import { useTypewriter } from '../hooks/useTypewriter'
 import { site } from '../data/site'
+import { asset } from '../utils/asset'
 import { SocialLinks } from './ui/SocialLinks'
 
 export function Hero() {
@@ -59,7 +60,7 @@ export function Hero() {
               <ArrowDown size={16} className="transition-transform group-hover:translate-y-0.5" />
             </a>
             <a
-              href={site.cvPath}
+              href={asset(site.cvPath)}
               download
               className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-all duration-300 hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
             >
@@ -83,7 +84,7 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-tr from-[var(--color-accent)]/30 to-[var(--color-accent-2)]/30 opacity-40 blur-2xl" />
             <div className="glass relative overflow-hidden rounded-[2.5rem] p-2">
               <img
-                src="/images/me1.png"
+                src={asset('images/me1.png')}
                 alt={t.hero.name}
                 className="h-full w-full rounded-[2rem] object-cover"
                 loading="eager"

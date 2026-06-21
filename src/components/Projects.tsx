@@ -3,6 +3,7 @@ import { ExternalLink, Github } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 import { SectionHeading } from './ui/SectionHeading'
 import { projects } from '../data/projects'
+import { asset } from '../utils/asset'
 
 export function Projects() {
   const { t, lang } = useLanguage()
@@ -29,7 +30,7 @@ export function Projects() {
               {/* Imagem */}
               <div className="relative aspect-video overflow-hidden">
                 <img
-                  src={project.image}
+                  src={asset(project.image)}
                   alt={project.title}
                   loading="lazy"
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
