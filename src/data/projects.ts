@@ -13,15 +13,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'gestante-digital',
-    title: 'Gestante Digital',
+    id: 'space-impact',
+    title: 'Space Impact',
     description: {
-      pt: 'Plataforma destinada a gestantes para acompanhar informações sobre consultas e exames de forma simples e organizada.',
-      en: 'Platform for pregnant women to track information about appointments and exams in a simple, organized way.',
+      pt: 'Jogo estilo Game Boy desenvolvido com JavaScript puro, com nave espacial, inimigos, sistema de pontuação e suporte a mobile.',
+      en: 'Game Boy-style game built with vanilla JavaScript, featuring a spaceship, enemies, scoring system and mobile support.',
     },
-    image: '/images/img-01.png',
-    liveUrl: 'https://projeto-gd-on.netlify.app',
-    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: '/images/img-space-impact.png',
+    liveUrl: 'https://asteroidsgames-test.netlify.app',
+    tags: ['JavaScript', 'Canvas', 'Game Dev'],
     featured: true,
   },
   {
