@@ -107,10 +107,10 @@ export const translations: Record<Language, Translation> = {
     about: {
       heading: 'Sobre ',
       headingAccent: 'mim',
-      role: 'Engenheiro de Software · Bemol Digital',
+      role: 'Engenheiro de Software Junior · Bemol Digital',
       paragraphs: [
-        'Sou Marlon Silva, Engenheiro de Software na Bemol Digital, onde atuo no desenvolvimento full stack de sistemas corporativos — transformando ideias em soluções funcionais, escaláveis e de alta qualidade.',
-        'Minha trajetória começou como estagiário e evoluí para Software Engineer Trainee. No dia a dia trabalho com C#, .NET, Node.js, TypeScript e React, atuando do frontend ao backend em todo o ciclo de vida do software.',
+        'Sou Marlon Silva, Engenheiro de Software Junior na Bemol Digital, onde atuo no desenvolvimento full stack de sistemas corporativos — transformando ideias em soluções funcionais, escaláveis e de alta qualidade.',
+        'Minha trajetória começou como estagiário e evoluí para Engenheiro de Software Junior. No dia a dia trabalho com C#, .NET, Node.js, TypeScript e React, atuando do frontend ao backend em todo o ciclo de vida do software.',
         'Tenho graduação e pós-graduação em Engenharia de Software, com interesse especial em desenvolvimento web, computação em nuvem (Azure) e boas práticas. Estou sempre em busca de novos desafios que me permitam evoluir e contribuir para produtos que façam a diferença.',
       ],
       highlights: [
@@ -145,7 +145,15 @@ export const translations: Record<Language, Translation> = {
       subtitle: 'Minha trajetória profissional e acadêmica na engenharia de software.',
       items: [
         {
-          period: 'abr 2024 — Presente',
+          period: 'nov 2026 — Presente',
+          title: 'Engenheiro de Software Junior',
+          org: 'Bemol Digital · Amazonas, Brasil',
+          description:
+            'Desenvolvimento de aplicações web full stack com C#, .NET, Node.js e TypeScript. Construção e consumo de APIs REST, desenvolvimento de interfaces frontend e manutenção de sistemas corporativos, participando de todo o ciclo de vida do software — da análise ao deploy e sustentação.',
+          skills: ['C#', '.NET', 'Node.js', 'TypeScript', 'React.js', 'Azure Functions', 'Azure DevOps', 'Git'],
+        },
+        {
+          period: 'abr 2024 — out 2026',
           title: 'Software Engineer Trainee',
           org: 'Bemol Digital · Amazonas, Brasil',
           description:
@@ -240,10 +248,10 @@ export const translations: Record<Language, Translation> = {
     about: {
       heading: 'About ',
       headingAccent: 'me',
-      role: 'Software Engineer · Bemol Digital',
+      role: 'Junior Software Engineer · Bemol Digital',
       paragraphs: [
-        "I'm Marlon Silva, a Software Engineer at Bemol Digital, where I work on the full stack development of enterprise systems — turning ideas into functional, scalable and high-quality solutions.",
-        'My journey started as an intern and grew into a Software Engineer Trainee role. Day to day I work with C#, .NET, Node.js, TypeScript and React, across both frontend and backend, throughout the whole software lifecycle.',
+        "I'm Marlon Silva, a Junior Software Engineer at Bemol Digital, where I work on the full stack development of enterprise systems — turning ideas into functional, scalable and high-quality solutions.",
+        'My journey started as an intern and grew into a Junior Software Engineer role. Day to day I work with C#, .NET, Node.js, TypeScript and React, across both frontend and backend, throughout the whole software lifecycle.',
         "I hold a bachelor's and a postgraduate degree in Software Engineering, with a special interest in web development, cloud computing (Azure) and best practices. I'm always looking for new challenges that help me grow and contribute to products that make a difference.",
       ],
       highlights: [
@@ -278,7 +286,15 @@ export const translations: Record<Language, Translation> = {
       subtitle: 'My professional and academic journey in software engineering.',
       items: [
         {
-          period: 'Apr 2024 — Present',
+          period: 'Nov 2026 — Present',
+          title: 'Junior Software Engineer',
+          org: 'Bemol Digital · Amazonas, Brazil',
+          description:
+            'Full stack web development with C#, .NET, Node.js and TypeScript. Building and consuming REST APIs, developing frontend interfaces and maintaining enterprise systems, taking part in the whole software lifecycle — from analysis to deployment and support.',
+          skills: ['C#', '.NET', 'Node.js', 'TypeScript', 'React.js', 'Azure Functions', 'Azure DevOps', 'Git'],
+        },
+        {
+          period: 'Apr 2024 — Oct 2026',
           title: 'Software Engineer Trainee',
           org: 'Bemol Digital · Amazonas, Brazil',
           description:
